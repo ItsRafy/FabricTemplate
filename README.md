@@ -1,2 +1,2 @@
 # FabricTemplate
-just a simple fabric modding template cuz why not make my life easier
+just a simple minecraft modding template for fabric loader, cuz why not make my life easier
