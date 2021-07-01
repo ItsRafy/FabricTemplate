@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "template_modid",
+  "name": "Fabric Template",
+  "version": "${version}",
+  "authors": ["Me!", "Me 2!"],
+  "icon": "assets/template_modid/textures/logo.png",
+  "description": "Brief Description About The Mod",
+
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.fabric.template.TemplateMain"],
+    "client": ["com.fabric.template.TemplateClient"]
+  },
+  "mixins": ["template_modid.mixins.json"],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
